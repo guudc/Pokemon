@@ -1,0 +1,20 @@
+/*
+    The Color styles file
+    Author: C.O.A.T
+    Version: 1.0
+*/
+/*
+    Color lists
+        purple
+        Yellow
+        White
+*/
+.gameTextPurple {
+    color: purple;
+}
+.gameTextYellow {
+    color: yellow;
+}
+.gameTextWhite {
+    color: White;
+}

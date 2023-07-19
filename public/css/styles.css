@@ -1,0 +1,99 @@
+/*
+    The Main styles file
+    Author: C.O.A.T
+    Version: 1.0
+*/
+/* Importing the 
+    Fonts declaration file 
+    Animation file
+    Responsive file
+*/	
+@import url("fonts/font.css");
+@import url("anim.css");
+@import url("colors.css");
+@import url("responsive.css");
+/* Body */
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #fafafa;
+    background-image: url("../img/backgrounds/bg1.png");
+    background-repeat: repeat;
+    font-family: Zorque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 900ms;
+}
+/* Loaders */
+.loader{
+    height: 10px;
+    width: 100px;
+    border: 10px solid #f4a261;
+    border-radius: 15px;
+    margin: auto;
+}
+.loaderBar{
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: loadingEffect 4s infinite linear;    
+}
+/* Game Modal */
+#gameModal{
+    background: rgba(255, 255, 255,.25);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.3);
+    max-width: 500px;
+    transition: all 600ms;
+}
+/* Game Story Navigation */
+.gameStoryNav {
+    margin-top:20px;
+    width:100%;
+    min-width:300px;
+    display: flex;
+    animation: gameNavEnt 700ms;
+  
+}
+.gameStoryNav button{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: Zorque;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.gameStoryNav button:active{
+    transform: scale(0.7);
+}
+.gameStoryNav button:nth-child(1){
+    margin-right: auto;
+}
+/* Game info Images */
+.gameInfoImg {
+    width: 100%;
+    padding:10px 0px;
+    display: flex;
+    align-items: center;
+    overflow-x:auto;
+}
+.gameInfoImg div {
+    width: 40px;
+    height: 40px;
+    border:2px solid gold;
+    margin: auto;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    animation: gameInfoImgEnt 800ms;
+    flex-shrink: 0;
+}
+ 

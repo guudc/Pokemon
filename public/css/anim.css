@@ -1,0 +1,39 @@
+/*
+    The animation css file
+    Author: C.O.A.T
+    Version: 1.0
+*/
+
+/* Loaders Animations */
+@keyframes loadingEffect{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 30%;
+    }
+    50%{
+        width: 65%;
+    }
+    100%{
+        width: 100%;
+    }
+};
+/* Game nav entrance */
+@keyframes gameNavEnt{
+    0% {
+        transform: translateY(1000px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* Game info img Ent */
+@keyframes gameInfoImgEnt {
+    0% {
+        transform: scale(0) rotate(360deg);
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}

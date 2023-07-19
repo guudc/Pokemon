@@ -1,0 +1,17 @@
+/*
+    The font declaration file
+    Author: C.O.A.T
+    Version: 1.0
+    Credits: Zorque Fonts
+*/
+	
+/* Font Declaration */ 
+@font-face {
+    font-family:"Zorque";	
+    src: url('zorque/zorque.otf');
+    font-style: normal;
+}
+/* Font sizes */  
+.gameTextMedium {
+    font-size: 20px;
+}

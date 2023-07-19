@@ -1,0 +1,21 @@
+/*
+    The Responsive styles equivalent file
+    Author: C.O.A.T
+    Version: 1.0
+*/
+/* Add important to all styles
+   This enables us override all main styles
+   We are doing it this way because the responsive.css
+   was imported in the main styles, and thus has lesser
+   cascading priority, compare to the main style
+*/
+@media only screen and (max-width: 500px) {
+    /* Game Modal */
+    #gameModal{
+        max-width: calc(100% - 60px) !important;
+    }
+    /* Game Nav Buttons */
+    .gameStoryNav button{
+        font-size: 18px !important;
+    }
+}
